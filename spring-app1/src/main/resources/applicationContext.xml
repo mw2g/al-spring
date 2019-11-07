@@ -13,13 +13,18 @@
         class="ru.alishev.springcourse.RockMusic">
     </bean>
     <bean id="classicalMusicBean"
-        class="ru.alishev.springcourse.ClassicalMusic">
+        class="ru.alishev.springcourse.ClassicalMusic"
+        init-method="doMyInit"
+        destroy-method="doMyDestroy"
+        scope="prototype"
+        factory-method="getClassicalMusic">
     </bean>
     <bean id="popMusicBean"
         class="ru.alishev.springcourse.PopMusic">
     </bean>
     <bean id ="musicPlayer"
-    	class="ru.alishev.springcourse.MusicPlayer">
+    	class="ru.alishev.springcourse.MusicPlayer"
+    	scope="prototype">
 		<property name="musicList">
 			<list>
 				<ref bean="rockMusicBean"/>
