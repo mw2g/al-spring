@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Lesson8.InitDestroyAndFactory/src/main/java/|Lesson9.SpringAnnotations1/src/main/java/|Lesson2.SpringAppDemo(XML Config)/src/main/java/|Lesson6.DIAppPart2/src/main/java/|Lesson13.SpringJavaConfiguration/src/main/java/|Lesson6.HWSolution/src/main/java/|Lesson5.FirstDIApp/src/main/java/|Lesson13.HWSolution/src/main/java/|spring-app1/src/main/java/|Lesson11.SpringAnnotations3/src/main/java/|Lesson12.SpringAnnotations4/src/main/java/|Lesson11.HWSolution/src/main/java/|Lesson10.SpringAnnotations2/src/main/java/|Lesson4.FirstIoCApp/src/main/java/|Lesson7.Scopes/src/main/java/" kind="src" path=""/>
+	<classpathentry kind="src" path="Lesson10.SpringAnnotations2/src/main/java"/>
+	<classpathentry kind="src" path="Lesson11.HWSolution/src/main/java"/>
+	<classpathentry kind="src" path="Lesson11.SpringAnnotations3/src/main/java"/>
+	<classpathentry kind="src" path="Lesson12.SpringAnnotations4/src/main/java"/>
+	<classpathentry kind="src" path="Lesson13.HWSolution/src/main/java"/>
+	<classpathentry kind="src" path="Lesson13.SpringJavaConfiguration/src/main/java"/>
+	<classpathentry kind="src" path="Lesson2.SpringAppDemo(XML Config)/src/main/java"/>
+	<classpathentry kind="src" path="Lesson4.FirstIoCApp/src/main/java"/>
+	<classpathentry kind="src" path="Lesson5.FirstDIApp/src/main/java"/>
+	<classpathentry kind="src" path="Lesson6.DIAppPart2/src/main/java"/>
+	<classpathentry kind="src" path="Lesson6.HWSolution/src/main/java"/>
+	<classpathentry kind="src" path="Lesson7.Scopes/src/main/java"/>
+	<classpathentry kind="src" path="Lesson8.InitDestroyAndFactory/src/main/java"/>
+	<classpathentry kind="src" path="Lesson9.SpringAnnotations1/src/main/java"/>
+	<classpathentry kind="src" path="spring-app1/src/main/java"/>
+	<classpathentry kind="output" path="spring-app1/target/classes"/>
+</classpath>
